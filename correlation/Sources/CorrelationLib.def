@@ -1,0 +1,93 @@
+; CorrelationLib.def : Declares the module parameters for the DLL.
+
+LIBRARY      "CorrelationLib"
+DESCRIPTION  'Exports the interface for the library: Correlation Analysis'
+
+EXPORTS
+    ; Explicit exports can go here
+	CreateScaledCorrelationComputerBB							@1
+	FreeScaledCorrelationComputerBB								@2
+	ComputeScaledCorrelationBB									@3
+	ComputeWindowedScaledCorrelationPerTrialBB					@4
+	GetScaledCrossCorrelogramBB									@5
+	GetFiCoefficientSumsBB										@6
+	GetFiCoefficientCountsBB									@7
+	GetDistributionOfCorrelationCoefficientsBB					@8
+	ScaledCorrelationModifyScaleWindowBB						@9
+	ScaledCorrelationModifyCorrelationWindowBB					@10
+	ScaledCorrelationModifyTrialLengthBB						@11
+	ScaledCorrelationModifyAllParametersBB						@12
+	ScaledCorrelationGetScaleWindowBB							@13
+	ScaledCorrelationGetCorrelationWindowBB						@14
+	ScaledCorrelationGetTrialLengthBB							@15
+	GetDistributionOfCorrelationCoefficientsBinNrBB				@16
+	GetDistributionOfCorrelationCoefficientsBinSizeBB			@17
+
+	CreateCrossCorrelationComputerBB							@18
+	FreeCrossCorrelationComputerBB								@19
+	ComputeCrossCorrelationBB									@20
+	GetCrossCorrelogramBB										@21
+	ComputeWindowedCrossCorrelationPerTrialBB					@22
+	CrossCorrelationModifyCorrelationWindowBB					@23
+	CrossCorrelationModifyTrialLengthBB							@24
+	CrossCorrelationModifyAllParametersBB						@25
+	CrossCorrelationGetCorrelationWindowBB						@26
+	CrossCorrelationGetTrialLengthBB							@27
+
+	CreateScaledCorrelationComputerCC							@28
+	FreeScaledCorrelationComputerCC								@29
+	ComputeScaledCorrelationCC									@30
+	ComputeScaledCorrelationNoBorderCheckingCC					@31
+	ComputeWindowedScaledCorrelationPerTrialCC					@32
+	GetScaledCrossCorrelogramCC									@33
+	GetPearsonCoefficientSumsCC									@34
+	GetPearsonCoefficientCountsCC								@35
+	GetDistributionOfCorrelationCoefficientsCC					@36
+	ScaledCorrelationModifyScaleWindowCC						@37
+	ScaledCorrelationModifyCorrelationWindowCC					@38
+	ScaledCorrelationModifyTrialLengthCC						@39
+	ScaledCorrelationModifyAllParametersCC						@40
+	ScaledCorrelationGetScaleWindowCC							@41
+	ScaledCorrelationGetCorrelationWindowCC						@42
+	ScaledCorrelationGetTrialLengthCC							@43
+	GetDistributionOfCorrelationCoefficientsBinNrCC				@44
+	GetDistributionOfCorrelationCoefficientsBinSizeCC			@45
+	
+	CreateCrossCorrelationComputerCC							@46
+	FreeCrossCorrelationComputerCC								@47
+	ComputeCrossCorrelationCC									@48
+	ComputeCrossCorrelationNoBorderCheckingCC					@49
+	ComputeWindowedCrossCorrelationPerTrialCC					@50
+	GetCrossCorrelogramCC										@51
+	CrossCorrelationModifyCorrelationWindowCC					@52
+	CrossCorrelationModifyTrialLengthCC							@53
+	CrossCorrelationModifyAllParametersCC						@54
+	CrossCorrelationGetCorrelationWindowCC						@55
+	CrossCorrelationGetTrialLengthCC							@56
+	
+	CreateScaledCorrelationComputerBC							@57
+	FreeScaledCorrelationComputerBC								@58
+	ComputeScaledCorrelationBC									@59
+	GetScaledCrossCorrelogramBC									@60
+	GetPBsCoefficientSumsBC										@61
+	GetPBsCoefficientCountsBC									@62
+	GetDistributionOfCorrelationCoefficientsBC					@63
+	ScaledCorrelationModifyScaleWindowBC						@64
+	ScaledCorrelationModifyCorrelationWindowBC					@65
+	ScaledCorrelationModifyTrialLengthBC						@66
+	ScaledCorrelationModifyAllParametersBC						@67
+	ScaledCorrelationGetScaleWindowBC							@68
+	ScaledCorrelationGetCorrelationWindowBC						@69
+	ScaledCorrelationGetTrialLengthBC							@70
+	GetDistributionOfCorrelationCoefficientsBinNrBC				@71
+	GetDistributionOfCorrelationCoefficientsBinSizeBC			@72
+	
+	CreateCrossCorrelationComputerBC							@73
+	FreeCrossCorrelationComputerBC								@74
+	ComputeCrossCorrelationBC									@75
+	GetCrossCorrelogramBC										@76
+	CrossCorrelationModifyCorrelationWindowBC					@77
+	CrossCorrelationModifyTrialLengthBC							@78
+	CrossCorrelationModifyAllParametersBC						@79
+	CrossCorrelationGetCorrelationWindowBC						@80	
+	CrossCorrelationGetTrialLengthBC							@81						
